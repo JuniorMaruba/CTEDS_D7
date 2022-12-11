@@ -1,0 +1,15 @@
+<Window x:Class="D7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:D7"
+        mc:Ignorable="d"
+        Title="UserPersonalSpace" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Label Name="WelcomeMessage" HorizontalAlignment="Center" FontSize="16"> Seja bem vindo, </Label>
+            <TextBlock TextWrapping="Wrap" Margin="50,50,50,50" FontSize="14"> Saulo, o melhor professor :) Obrigado pela disciplina, pudemos aprender muito e fico muito satisfeito com o trabalho desenvolvido aqui! Gostei bastante das matérias e acredito elas me foram muito úteis em termos de conhecimento e aplicação. Abraço.</TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
